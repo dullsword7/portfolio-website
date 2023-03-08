@@ -1,11 +1,23 @@
+.home-page {
+    font-family: Mynerve;
+}
 .home-page h1 {
     margin-left: 50px;
+    animation: fadeIn 1s forwards;
 }
 
 .home-page p {
     margin-left: 50px;
     font-size: 20px;
+    animation: fadeIn 1s forwards;
 }
+
 .home-links {
     color: blue;
+}
+
+.home-page img {
+    width: 50%;
+    height: 50%;
+    margin-left: 50px;
 }

@@ -1,23 +1,24 @@
 .nav-bar {
   background-color: var(--color4);
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   height: 100px;
+  font-family: Mynerve;
 }
 
 div {
     display: inline-block;
 }
 
-.nav-links li, .nav-links li :visited {
+.nav-item,.nav-item :visited {
   display: inline-block;
   margin: 0px 50px;
   text-decoration: none;
   color: white;
 }
 
-.nav-links :hover , .external-links :hover {
+.nav-links :hover, .external-links :hover {
     color: yellow;
 }
 
